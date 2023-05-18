@@ -3,4 +3,7 @@ collections:
   - name: ansible.utils
   - name: ansible.posix
   - name: community.general
-  # - name: aap_iac.config_aap
+  - name: infra.controller_configuration
+    version: "==2.1.94"
+  - name: automationiberia.casc_setup
+    version: "==2.0.19"
