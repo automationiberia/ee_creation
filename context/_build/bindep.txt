@@ -1,3 +1,0 @@
-# python38-devel [platform:rpm compile]
-# subversion [platform:rpm]
-crun [platform:rpm]
