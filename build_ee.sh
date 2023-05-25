@@ -15,8 +15,8 @@ if [ $# -ne 1 ]; then
 fi
 
 #AAH=automationhub.bcnconsulting.com
-AAH=ah22.iam.lab
-#AAH=quay.io/automationiberia/aap
+#AAH=ah22.iam.lab
+AAH=quay.io/automationiberia/aap
 
 ansible-builder build --tag ${AAH}/${1}
 podman login ${AAH} --username admin --password redhat00 --tls-verify=false
